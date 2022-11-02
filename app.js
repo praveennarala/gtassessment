@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const studentModel = require('./db/connect')
 const app = express()
 
-let dbUrl = 'mongodb+srv://naralapraveen:motog4plus@nodejsprojects.ktpgu.mongodb.net/Student?retryWrites=true&w=majority' // Insert database url here
+let dbUrl = ' ' // Insert database url here
 
 mongoose.connect(dbUrl)
   .then(res => console.log("Connected to db"))
